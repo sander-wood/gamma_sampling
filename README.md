@@ -5,6 +5,8 @@ A collection of sampling methods for machine learning implemented on numpy.
 
 You can install the python package `samplings` via `pip install samplings`.
 
+For more information, see our paper: [arXiv paper](https://arxiv.org/pdf/2205.06036.pdf).
+
 Author: Sander Wood
 
 Provides
