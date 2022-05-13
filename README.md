@@ -18,10 +18,10 @@ Provides
 
 How to use
 ----------
-As you probably know, sampling means randomly picking the next token according 
-to its conditional probability distribution. In other words, given the same 
-probability distribution, you may get a different result each time. If you 
-want to get rid of this uncertainty, you can set `seed` to a fixed value.
+As you probably know, sampling means randomly picking a token from a given
+probability distribution. In other words, given the same probability distribution,
+you may get a different result each time. If you want to get rid of this uncertainty,
+you can set `seed` to a fixed value.
 
 By default, all the functions in `samplings` return the index of the next token.
 However, you can ask them to return the modified probability distribution by set 
